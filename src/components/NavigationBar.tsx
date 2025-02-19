@@ -28,7 +28,7 @@ export const NavigationBar = () => {
               isSearchExpanded ? 'hidden sm:block' : 'block'
             }`}
           >
-            Vision Stream
+            AnexPlus
           </Link>
 
           {/* Search Form */}
