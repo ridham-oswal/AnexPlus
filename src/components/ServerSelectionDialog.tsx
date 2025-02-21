@@ -15,28 +15,28 @@ interface ServerOption {
 
 export const servers: ServerOption[] = [
   {
-    name: "Embed.su",
+    name: "Server 1",
     getEmbedUrl: ({ movieId, mediaType, seasonNumber, episodeNumber }) =>
       mediaType === 'tv'
         ? `https://embed.su/embed/tv/${movieId}/${seasonNumber}/${episodeNumber}`
         : `https://embed.su/embed/movie/${movieId}`
   },
   {
-    name: "Vidbinge",
+    name: "Server 2",
     getEmbedUrl: ({ movieId, mediaType, seasonNumber, episodeNumber }) =>
       mediaType === 'tv'
         ? `https://vidbinge.dev/embed/tv/${movieId}/${seasonNumber}/${episodeNumber}`
         : `https://vidbinge.dev/embed/movie/${movieId}`
   },
   {
-    name: "Vidsrc",
+    name: "Server 3",
     getEmbedUrl: ({ movieId, mediaType, seasonNumber, episodeNumber }) =>
       mediaType === 'tv'
         ? `https://vidsrc.xyz/embed/tv/${movieId}/${seasonNumber}/${episodeNumber}`
         : `https://vidsrc.xyz/embed/movie/${movieId}`
   },
   {
-    name: "Autoembed",
+    name: "Server 4",
     getEmbedUrl: ({ movieId, mediaType, seasonNumber, episodeNumber }) =>
       mediaType === 'tv'
         ? `https://player.autoembed.cc/embed/tv/${movieId}/${seasonNumber}/${episodeNumber}`
