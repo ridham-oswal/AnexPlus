@@ -28,7 +28,7 @@ export const NavigationBar = () => {
               isSearchExpanded ? 'hidden sm:block' : 'block'
             }`}
           >
-            AnexPlus
+            Prinex
           </Link>
 
           {/* Search Form */}
