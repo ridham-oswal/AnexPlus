@@ -1,5 +1,4 @@
-
-# Vision Stream
+# Prinex
 
 A modern streaming platform built with:
 
