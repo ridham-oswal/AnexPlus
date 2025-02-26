@@ -1,6 +1,3 @@
-
-# Vision Stream
-
 A modern streaming platform built with:
 
 - Vite
@@ -27,9 +24,3 @@ npm i
 
 # Step 4: Start the development server
 npm run dev
-```
-
-## Deployment
-
-You can deploy this project to any static hosting service like Netlify, Vercel, or GitHub Pages.
-
